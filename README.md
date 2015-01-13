@@ -19,7 +19,14 @@ First time using Express, Jade, and [Fabric](https://dev.twitter.com/overview/do
 - Using the information on that page fill out the find.js file in the routes folder.
 
 
-
+```
+var twitter = new twit({
+  consumer_key: 'XXXX',
+  consumer_secret: 'XXXX',
+  access_token_key: 'XXXX',
+  access_token_secret: 'XXXX'
+});
+```
 
 
 
